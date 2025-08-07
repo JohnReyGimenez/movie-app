@@ -1,12 +1,12 @@
 import React from 'react'
 import { Text, View } from 'react-native'
 
-const MovieDetails = () => {
+const profile = () => {
   return (
     <View>
-      <Text>[id]</Text>
+      <Text>profile</Text>
     </View>
   )
 }
 
-export default MovieDetails
+export default profile
