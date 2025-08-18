@@ -1,6 +1,8 @@
 import { Tabs } from 'expo-router'
 import React from 'react'
 
+import { ImageBackground } from 'react-native'
+
 const _layout = () => {
   return (
     <Tabs>
@@ -8,7 +10,12 @@ const _layout = () => {
         name="index"
         options = {{ 
             title: 'Home',
-            headerShown: false
+            headerShown: false,
+            tabBarIcon: ([ focused ]) => (
+                <>
+
+                </>
+            )
         }}
         />
 
